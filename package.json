@@ -1,0 +1,32 @@
+{
+  "name": "vanilla-ts-table",
+  "version": "1.0.0",
+  "description": "Vanilla javascript table transpiled from Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "concurrently \"lite-server\" \"tsc --watch\" "
+  },
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "lite-server": "^2.5.4",
+    "tslib": "^1.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "~6.0.60",
+    "nodemon": "^1.17.3",
+    "ts-node": "^6.0.2",
+    "tslint": "~5.19.0",
+    "typescript": "~3.5.3"
+  },
+  "keywords": [
+    "js",
+    "ts",
+    "javascript",
+    "typescript",
+    "data",
+    "datatable"
+  ],
+  "author": "Tawanda Kanyangarara",
+  "license": "ISC"
+}
